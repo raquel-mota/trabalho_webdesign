@@ -83,11 +83,12 @@ nav a {
 	text-align: center;
 	width: 40%;
 	vertical-align: top;
-	margin: 0 1.5%;
+	margin: 1.5% 1.5%;
 	padding: 10px 10px; 
 	box-sizing: border-box;
 	border: 2px solid #FFFFFF;
-	border-radius: 100px;
+	border-radius: 100px; 
+	box-shadow: 5px 5x 5px 5px #000000; 
 }
 
 #encontro {
