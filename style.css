@@ -88,7 +88,7 @@ nav a {
 	box-sizing: border-box;
 	border: 2px solid #FFFFFF;
 	border-radius: 100px; 
-	box-shadow: 10px 10px 10px #000000 
+	box-shadow: 10px 10px 10px #000000, -5px -5px 5px #000000;
 }
 
 #encontro {
