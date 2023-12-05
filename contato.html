@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>YGG Eventos</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="titulo-principal">YGG Eventos</h1>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre_nos.html">Sobre nós</a></li>
+          <li><a href="encontro.html">Encontro Geek Ura</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="paginaparacontato">
+    <h2>Fale conosco</h2>
+    <form>
+      <label for="nomesobrenome">Nome e sobrenome:</label>
+      <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+      <label for="e-mail">E-mail:</label>
+      <input type="email" id="e-mail" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea cols="60" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+      <fieldset>
+        <legend>Como gostaria de ser contatado?</legend>
+
+        <label for="radio-e-mail"><input type="radio" value="e-mail" id="radio-e-mail"> E-mail</label>
+
+        <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone"> Telefone</label>
+
+        <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+      </fieldset> 
+
+      <fieldset>
+        <legend>Em qual horário prefere ser contatado?</legend>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </fieldset>
+
+      <label class="checkbox><input type="checkbox>Gostaria de receber as atualizações sobre os eventos e caravanas?</label>
+      <label for="radio-email"><input type="radio" value="sim" id="radio-email" checked>Sim</label>
+      <label for="radio-telefone"><input type="radio" value="não" id="radio-telefone"> Não</label>
+            
+      <input type="submit" value="Enviar formulário" class="enviar">
+    </form
+</body>
+
+</html>
