@@ -1,13 +1,3 @@
-@media screen and (max-width: 480px) {
-  body {
-    background: indigo;
-  }
-} 
-
-main, .mapa {
-  width: auto;
-}
-
 body {
   font-family: 'Young Serif', serif;
   color: white;
@@ -161,3 +151,12 @@ form label, form legend {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 480px) {
+  body {
+    background: indigo;
+  }
+} 
+
+main, .mapa {
+  width: auto;
+}
