@@ -1,0 +1,197 @@
+body {
+  font-family: 'Young Serif', serif;
+  color: white;
+  background: black;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+  text-align: center;
+}
+
+#logo {
+  width: 100%
+}
+
+.principal {
+  text-align: center;
+}
+
+
+p {
+  text-align: center;
+}
+
+
+i {
+  color: lightgreen;
+}
+
+nav {
+  position: static; 
+  text-align: center;
+}
+
+nav li {
+  display: inline-grid;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#objetivo {
+  font-size: 20px;
+}
+
+/* Definições para a página Sobre nós 
+*/ 
+
+.objetivos {
+  text-align: left;
+  background: midnightblue;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Definições para a página Encontro 
+*/ 
+
+.encontro {
+  font-size: 20px;
+  background: indigo;
+  color: white; 
+  padding: 5px;
+  text-align: center;
+}
+
+.arteencontros li {
+  text-align: center;
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	padding: 20px 20px; 
+	box-sizing: border-box;
+	border: 2px solid #FFFFFF;
+	border-radius: 100px; 
+  box-shadow: 10px 10px 10px #000000, -5px -5px 5px #000000; 
+ }
+
+#encontro {
+  text-align: center;
+	max-width: 80%;
+  max-height: 80%;
+  box-shadow: 10px 10px 10px #000000; 
+}
+
+.localizacao {
+  font-size: 20px;
+  text-align: center; 
+  background: indigo;
+  color: white;
+  padding: 1em;
+  margin: 1% 0%;
+}
+
+.animacao {
+  background: indigo;
+  text-align: left;
+}
+
+#supercub {
+  animation: pilotar 4s linear infinite;
+  width: 20%;
+}
+
+#supercub:hover {
+  animation-play-state: paused;
+}
+
+
+@keyframes pilotar {
+  from {
+    transform: translate(-20vw, 0);
+  }
+
+  to {
+    transform: translate(100vw, 0);
+  }
+}
+
+/* definições para a página de Contato */
+ 
+form {
+  margin: 40px 0;
+}
+
+form label, form legend {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%
+}
+
+.checkbox {
+  margin: 0 0 20px;
+} 
+
+.paginaparacontato {
+  text-align: left;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.enviar {
+  width: 35%;
+  padding: 15px 0px;
+  background: #26a126;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkgreen;
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    background: black;
+  }
+
+  main, .mapa, .boxmoto {
+  width: auto;
+  }
+
+  h1 {
+  text-align: center;
+  }
+
+  .arteencontros li {
+  font-size: 50%;
+  }
+} 
+
+
